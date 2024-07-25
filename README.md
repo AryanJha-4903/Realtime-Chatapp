@@ -1,20 +1,46 @@
-# Real-Time ChatApp
-## Technologies Used
 
-- MERN stack (MongoDB, Express.js, React.js, and Node.js)
-- Socket.io
-- Redux Toolkit
-- Tailwind CSS
+---
+# Real-Time Chat App with MERN Stack
+
+A feature-rich real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js). Supports instant messaging, secure authentication, and user-friendly interfaces.
 
 ## Features
+- **Instant Messaging**: Real-time communication with other users.
+- **Secure Authentication**: User login and registration with JWT.
+- **User-Friendly Interface**: Interactive and responsive chat UI.
+- **Scalable Architecture**: Efficient handling of concurrent users and messages.
 
-- Real-time chat: users can send and receive messages in real-time
-- User authentication: users can sign up, log in, and log out using JWT and Google Auth
-- Group creation: users can create chat rooms and invite others to join
-- Notifications: users can receive notifications on new messages
-- Emojis: users can send and receive emojis in messages
-- Profile page where users can update their avatar and display name.
-- Users can create a room to chat with others.
-- Search functionality.
-- Responsive design: the website is optimized for different screen sizes and devices
+## Technologies
+- **Frontend**: React
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Real-Time Communication**: Socket.IO
 
+## Getting Started
+1. Clone the repository.
+   ```
+   git clone https://github.com/yourusername/real-time-chat-app
+   ```
+2. Install server dependencies.
+   ```
+   cd backend
+   npm install
+   ```
+3. Install client dependencies.
+   ```
+   cd ../frontend
+   npm install
+   ```
+4. Start the backend server.
+   ```
+   cd ../backend
+   npm start
+   ```
+5. Start the frontend.
+   ```
+   cd ../frontend
+   npm start
+   ```
+   
+---
