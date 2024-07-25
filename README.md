@@ -24,23 +24,22 @@ A feature-rich real-time chat application built using the MERN stack (MongoDB, E
    ```
 2. Install server dependencies.
    ```
-   cd backend
+   cd server
    npm install
    ```
 3. Install client dependencies.
    ```
-   cd ../frontend
+   cd ../client
    npm install
    ```
-4. Start the backend server.
+4. Start the server server.
    ```
-   cd ../backend
+   cd ../server
    npm start
    ```
-5. Start the frontend.
+5. Start the client.
    ```
-   cd ../frontend
+   cd ../client
    npm start
    ```
-   
 ---
